@@ -14,6 +14,17 @@
     scroll-behavior: smooth;
 }
 
+/* OVERLAY */
+
+.overlay {
+    width: 100vw;
+    height: 200vh;
+    z-index: 999;
+    background-color: var(--main-secondary-text-color);
+    position: absolute;
+    top: 0;
+}
+
 /* NAVIGATION */
 
 header {
@@ -65,13 +76,6 @@ nav ul li a:hover {
     background-image: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.overlay {
-    width: 100vw;
-    height: 100vh;
-    z-index: 999;
-    background-color: var(--main-secondary-text-color);
 }
 
 .hero-content {
