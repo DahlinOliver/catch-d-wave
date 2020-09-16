@@ -24,7 +24,7 @@
     top: 0;
     z-index: 990;
     animation-name: overlay;
-    animation-duration: 5s;
+    animation-duration: 3.5s;
     animation-fill-mode: forwards;
 }
 
@@ -114,61 +114,61 @@ nav ul li a:hover {
     top: 40%;
     left: 10%;
     z-index: 999;
-    animation: fill 0.5s ease forwards 3.5s;
+    animation: fill 0.5s ease forwards 3s;
 }
 
 #logo path:nth-child(1) {
     stroke-dasharray: 807.7899780273438;
     stroke-dashoffset: 807.7899780273438;
-    animation: line-anim 2s ease forwards;
+    animation: line-anim 1s ease forwards;
 }
 
 #logo path:nth-child(2) {
     stroke-dasharray: 774.1693725585938;
     stroke-dashoffset: 774.1693725585938;
-    animation: line-anim 2s ease forwards 0.3s;
+    animation: line-anim 1s ease forwards 0.3s;
 }
 
 #logo path:nth-child(3) {
     stroke-dasharray: 825.9210205078125;
     stroke-dashoffset: 825.9210205078125;
-    animation: line-anim 2s ease forwards 0.6s;
+    animation: line-anim 1s ease forwards 0.6s;
 }
 
 #logo path:nth-child(4) {
     stroke-dasharray: 658.2977294921875;
     stroke-dashoffset: 658.2977294921875;
-    animation: line-anim 2s ease forwards 0.9s;
+    animation: line-anim 1s ease forwards 0.9s;
 }
 
 #logo path:nth-child(5) {
     stroke-dasharray: 738.1168823242188;
     stroke-dashoffset: 738.1168823242188;
-    animation: line-anim 2s ease forwards 1.2s;
+    animation: line-anim 1s ease forwards 1.2s;
 }
 
 #logo path:nth-child(6) {
     stroke-dasharray: 725.7749633789062;
     stroke-dashoffset: 725.7749633789062;
-    animation: line-anim 2s ease forwards 1.5s;
+    animation: line-anim 1s ease forwards 1.5s;
 }
 
 #logo path:nth-child(7) {
     stroke-dasharray: 1226.2481689453125;
     stroke-dashoffset: 1226.2481689453125;
-    animation: line-anim 2s ease forwards 1.8s;
+    animation: line-anim 1s ease forwards 1.8s;
 }
 
 #logo path:nth-child(8) {
     stroke-dasharray: 696.0109252929688;
     stroke-dashoffset: 696.0109252929688;
-    animation: line-anim 2s ease forwards 2.1s;
+    animation: line-anim 1s ease forwards 2.1s;
 }
-
 
 @keyframes line-anim {
     to {
         stroke-dashoffset: 0;
+        stroke: #F80759;
     }
 }
 
@@ -178,7 +178,7 @@ nav ul li a:hover {
     }
 
     to {
-        fill: white;
+        fill: #F80759;
     }
 }
 
