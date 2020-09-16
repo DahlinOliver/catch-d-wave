@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-    width: 90vw;
+    width: 80vw;
     height: 10vh;
     margin: auto;
     display: flex;
@@ -68,7 +68,7 @@ nav ul li a:hover {
 }
 
 .hero-content {
-    width: 90vw;
+    width: 80vw;
     height: 90vh;
     margin: auto;
     display: flex;
@@ -77,13 +77,40 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
-.hero-content h1 {
-    min-width: 100%;
-    font-size: 25.5rem;
-    letter-spacing: 3rem;
-    font-weight: 900;
-    color: var(--main-secondary-text-color);
-    transform: translateY(-2rem);
+#text {
+    
+}
+
+#text path:nth-child(1) {
+
+}
+
+#text path:nth-child(2) {
+
+}
+
+#text path:nth-child(3) {
+
+}
+
+#text path:nth-child(4) {
+
+}
+
+#text path:nth-child(5) {
+
+}
+
+#text path:nth-child(6) {
+
+}
+
+#text path:nth-child(7) {
+
+}
+
+#text path:nth-child(8) {
+
 }
 
 .arrow-down {
@@ -105,7 +132,7 @@ nav ul li a:hover {
 }
 
 .about-content {
-    width: 90vw;
+    width: 80vw;
     height: 100vh;
     margin: auto;
     display: flex;
@@ -114,12 +141,12 @@ nav ul li a:hover {
 }
 
 .left {
-    width: 45vw;
+    width: 40vw;
     height: 60vh;
 }
 
 .right {
-    width: 45vw;
+    width: 40vw;
     height: 60vh;
     background: url(./img/bg\ surf\ 2.jpg) no-repeat center;
 }
