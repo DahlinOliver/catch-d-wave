@@ -1,0 +1,104 @@
+:root {
+    --main-bg-color: #000;
+    --main-text-color: #fff;
+    --main-secondary-text-color: #F80759;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Lessons */
+
+.lessons {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #202020;
+}
+
+.lessons-content {
+    width: 80vw;
+    height: 22.5vh;
+    margin: auto;
+    padding: 5vh 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rectangle {
+    width: 0.8rem;
+    height: 18%;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    background-color: var(--main-secondary-text-color);
+}
+
+.banner {
+    width: 80vw;
+    height: 60vh;
+    position: absolute;
+    bottom: 10%;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: var(--main-secondary-text-color);
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.left {
+    width: 40vw;
+    height: 18vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 0.3rem;
+}
+
+h1 {
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.right {
+    width: 40vw;
+    height: 18vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+strong {
+    color: var(--main-secondary-text-color);
+    font-size: 2.5rem;
+    font-weight: 200;
+}
