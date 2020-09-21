@@ -191,3 +191,50 @@ nav ul li a:hover {
 .arrow-down:hover {
     transform: scale(1.25);
 }
+
+/* ABOUT */
+
+/* ABOUT SECTION */
+
+.about {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--main-bg-color);
+}
+
+.about-content {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 40vw;
+    height: 60vh;
+}
+
+.right {
+    width: 40vw;
+    height: 60vh;
+    background: url(./img/bg\ surf\ 2.jpg) no-repeat center;
+}
+
+.about-content h1 {
+    font-size: 8rem;
+    letter-spacing: 1rem;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: var(--main-secondary-text-color);
+}
+
+.about-content p {
+    width: 70%;
+    font-size: 1.6rem;
+    letter-spacing: 0.5rem;
+    line-height: 4.5rem;
+    margin-top: 5rem;
+    color: #fff;
+}
