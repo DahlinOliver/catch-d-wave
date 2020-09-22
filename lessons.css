@@ -74,31 +74,66 @@ h1 {
     font-size: 7rem;
     color: #fff;
     font-weight: 900;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
-p {
-    font-size: 1.2rem;
+.left p {
+    font-size: 1.5rem;
     color: #fff;
     font-weight: 500;
+    line-height: 2rem;
 }
 
 .right {
     width: 40vw;
     height: 18vh;
-    margin-left: 5vw;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
 }
 
+#price {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    align-self: flex-end;
+}
+
 .location {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#location-text {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 900;
+    align-self: flex-end;
 }
 
 strong {
     color: var(--main-secondary-text-color);
     font-size: 2.5rem;
-    font-weight: 200;
+    font-weight: 300;
+    align-self: flex-end;
+}
+
+i {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    align-self: flex-end;
+    margin-right: 0.5rem;
+}
+
+button {
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    background-color: var(--main-secondary-text-color);
+    align-self: flex-end;
 }
