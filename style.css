@@ -14,6 +14,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* OVERLAY */
 
 .overlay {
@@ -207,17 +211,17 @@ nav ul li a:hover {
     height: 100vh;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .left {
-    width: 40vw;
+    width: 45vw;
     height: 60vh;
 }
 
 .right {
-    width: 40vw;
+    width: 35vw;
     height: 60vh;
     background: url(./img/bg\ surf\ 2.jpg) no-repeat center;
 }
