@@ -242,3 +242,108 @@ nav ul li a:hover {
     margin-top: 5rem;
     color: #fff;
 }
+
+/* SURFCAMP */
+
+.surfcamp {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.surfcamp-content {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3rem;
+    transition: 0.6s ease-in-out;
+}
+
+.surfcamp-content div:first-child {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/arrifana-beach.jpg);
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    z-index: 50;
+    width: 23vw;
+    height: 70vh;
+}
+
+.surfcamp-content div:nth-child(2) {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/byron.jpg);
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    z-index: 51;
+    width: 23vw;
+    height: 70vh;
+}
+
+.surfcamp-content div:nth-child(3) {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/Weligama.jpg);
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    z-index: 52;
+    width: 23vw;
+    height: 70vh;
+}
+
+.surfcamp-content div:nth-child(4) {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/malibu.jpg);
+    background-position: center;
+    object-fit: cover;
+    position: relative;
+    z-index: 53;
+    width: 23vw;
+    height: 70vh;
+}
+
+.surfcamp-content div h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.surfcamp-content div p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1rem;
+    writing-mode: vertical-lr;
+}
+
+.surfcamp-content div:first-child:hover {
+    transition: 0.3s ease-in-out;
+    transform: translateY(-3vh);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./img/arrifana-beach.jpg);
+}
+
+.surfcamp-content div:nth-child(2):hover {
+    transition: 0.3s ease-in-out;
+    transform: translateY(3vh);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./img/byron.jpg);
+}
+
+.surfcamp-content div:nth-child(3):hover {
+    transition: 0.3s ease-in-out;
+    transform: translateY(-3vh);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./img/Weligama.jpg);
+}
+
+.surfcamp-content div:nth-child(4):hover {
+    transition: 0.3s ease-in-out;
+    transform: translateY(3vh);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./img/malibu.jpg);
+}

@@ -21,6 +21,19 @@
     background-color: #202020;
 }
 
+#exit {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    color: #959595;
+    cursor: pointer;
+}
+
+#exit:hover {
+    transform: scale(1.25);
+    color: var(--main-secondary-text-color);
+}
+
 .lessons-content {
     width: 80vw;
     height: 22.5vh;
