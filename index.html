@@ -7,8 +7,8 @@
     <!-- Added website description for better SEO -->
     <meta name="description" content="Catch D' Wave is a surf camp located in ...">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-    <script src="form.js"></script>
+    <script src="app.js" defer></script>
+    <script src="form.js" defer></script>
     <link rel="icon" href="./icon/catch d' wave icon.png" type="image/png" sizes="16x16">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -23,13 +23,14 @@
             <h1 class="logo">CATCH D' WAVE</h1>
 
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#surfcamp">Surfcamps</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <div class="hero"></div>
 
     <!--  <svg width="1517" height="170" id="logo" viewBox="-5 0 1525 166" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,43 +58,46 @@
             d="M1429.2 108.728V163H1390.64V3.03906H1454.47C1466.7 3.03906 1477.51 5.30957 1486.88 9.85059C1496.33 14.3184 1503.62 20.7271 1508.75 29.0767C1513.95 37.353 1516.55 46.7646 1516.55 57.3115C1516.55 72.9121 1510.94 85.3999 1499.74 94.7749C1488.6 104.077 1473.3 108.728 1453.81 108.728H1429.2ZM1429.2 78.9546H1454.47C1461.94 78.9546 1467.62 77.0869 1471.5 73.3516C1475.46 69.6162 1477.43 64.3428 1477.43 57.5312C1477.43 50.0605 1475.42 44.0913 1471.39 39.6235C1467.36 35.1558 1461.87 32.8853 1454.91 32.812H1429.2V78.9546Z"
             stroke="white" stroke-width="5" />
     </svg> -->
+    <section class="gradient-overlay">
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="left">
+                    <h1>ABOUT</h1>
+                    <p>Catch D' Wave is one of the world's most wonderful surfing companies that runs surf camps in five
+                        of
+                        the world's most
+                        delicious surf destinations - Biarritz in France, Galicia in Spain, Santa Teresa in Costa Rica,
+                        Kamburgamuwa in Sri
+                        Lanka and Southern California. Both you who are eager to learn to surf and you who want to
+                        develop
+                        your surfing are very
+                        welcome to our surf camps.</p>
+                </div>
 
-    <section id="about" class="about">
-        <div class="about-content">
-            <div class="left">
-                <h1>ABOUT</h1>
-                <p>Catch D' Wave is one of the world's most wonderful surfing companies that runs surf camps in five of
-                    the world's most
-                    delicious surf destinations - Biarritz in France, Galicia in Spain, Santa Teresa in Costa Rica,
-                    Kamburgamuwa in Sri
-                    Lanka and Southern California. Both you who are eager to learn to surf and you who want to develop
-                    your surfing are very
-                    welcome to our surf camps.</p>
+                <div class="right"></div>
             </div>
+        </section>
 
-            <div class="right"></div>
-        </div>
-    </section>
-
-    <section id="surfcamp" class="surfcamp">
-        <div class="surfcamp-content">
-            <div class="cards">
-                <h2>Algarve <br> Beach</h2>
-                <p>Algarve | Portugal</p>
+        <section id="surfcamp" class="surfcamp">
+            <div class="surfcamp-content">
+                <div class="cards">
+                    <h2>Algarve <br> Beach</h2>
+                    <p>Algarve | Portugal</p>
+                </div>
+                <div class="cards">
+                    <h2>Byron <br> Beach</h2>
+                    <p>Byron Bay | Australia</p>
+                </div>
+                <div class="cards">
+                    <h2>Sri <br> Lanka</h2>
+                    <p>Sri Lanka | Sri Lanka</p>
+                </div>
+                <div class="cards">
+                    <h2>Malibu <br> Beach</h2>
+                    <p>California | USA</p>
+                </div>
             </div>
-            <div class="cards">
-                <h2>Byron <br> Beach</h2>
-                <p>Byron Bay | Australia</p>
-            </div>
-            <div class="cards">
-                <h2>Sri <br> Lanka</h2>
-                <p>Sri Lanka | Sri Lanka</p>
-            </div>
-            <div class="cards">
-                <h2>Malibu <br> Beach</h2>
-                <p>California | USA</p>
-            </div>
-        </div>
+        </section>
     </section>
 </body>
 

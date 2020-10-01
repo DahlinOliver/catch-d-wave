@@ -56,6 +56,21 @@ header {
     z-index: 2;
 }
 
+.transparent {
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.scrolled-about {
+    background-color:rgb(26, 55, 63);
+    transition: 0.3s ease-in-out;
+}
+
+.scrolled-surfcamp {
+    background-color:rgb(9, 34, 41);
+    transition: 0.3s ease-in-out;
+}
+
 nav {
     width: 80vw;
     height: 10vh;
@@ -69,7 +84,6 @@ nav {
     font-size: 3rem;
     font-weight: 500;
     letter-spacing: 1rem;
-    cursor: pointer;
     color: var(--main-secondary-text-color);
 }
 
@@ -94,7 +108,7 @@ nav ul li a:hover {
 .hero {
     min-width: 100vw;
     min-height: 90vh;
-    background: url(./img/bg\ surf\ 2.jpg);
+    background: url(./img/bg\ surf.jpg);
     background-image: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -196,14 +210,17 @@ nav ul li a:hover {
     transform: scale(1.25);
 }
 
-/* ABOUT */
+/* GRADIENT OVERLAY */
+.gradient-overlay {
+    background: rgb(16,45,53);
+    background: linear-gradient(180deg, rgba(16,45,53,1) 20%, rgba(0,0,0,1) 100%);
+}
 
 /* ABOUT SECTION */
 
 .about {
     min-width: 100vw;
     min-height: 100vh;
-    background-color: var(--main-bg-color);
 }
 
 .about-content {
@@ -248,13 +265,13 @@ nav ul li a:hover {
 .surfcamp {
     width: 100vw;
     height: 100vh;
-    background-color: #000;
 }
 
 .surfcamp-content {
     width: 80vw;
     height: 100vh;
     margin: auto;
+    padding-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
