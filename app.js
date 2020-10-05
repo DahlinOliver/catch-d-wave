@@ -5,6 +5,8 @@ const hero = document.querySelector('.hero');
 const about = document.querySelector('#about');
 const surfcamp = document.querySelector('#surfcamp');
 
+const cards = document.querySelector('.cards');
+
 const aboutOptions = {
     rootMargin: "-150px 0px 0px 0px"
 };
@@ -36,22 +38,3 @@ const surfcampObserver = new IntersectionObserver(function (entries, surfcampObs
 }, surfcampOptions);
 
 surfcampObserver.observe(about);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* let navigation = document.querySelector('header'); */
-
-/* window.addEventListener('scroll', function () {
-    navigation.classList.toggle('scrolled', window.scrollY > 0);
-}); */
