@@ -1,8 +1,9 @@
 # Todo
 
 * ~~Lägga till surfcamp sida.~~
-* Fixa hamburgemeny till navbaren.
+* ~~Fixa hamburgemeny till navbaren.~~
 * ~~Photoshoppa rätt bakgrund så det ser ut som att man scrollar ner under vattnet.~~
+* Fixa så att menyn dyker upp vid klick på hamburgemenyn.
 * (Fixa about underline).
 * Fixa About så de wrappas vid mindre viewport.
 * Lägga till scrollDown button på hero section.
