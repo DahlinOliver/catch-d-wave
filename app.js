@@ -1,40 +1,33 @@
-// https://www.youtube.com/watch?v=RxnV9Xcw914
+const portugal = document.querySelector('#portugal');
+const australia = document.querySelector('#australia');
+const srilanka = document.querySelector('#srilanka');
+const usa = document.querySelector('#usa');
 
-const navbar = document.querySelector('header');
-const hero = document.querySelector('.hero');
-const about = document.querySelector('#about');
-const surfcamp = document.querySelector('#surfcamp');
+const close = document.querySelectorAll('.close');
+const formBMsg = document.querySelector('.submit-booking');
+const formQMsg = document.querySelector('.submit-question');
 
-const cards = document.querySelector('.cards');
+/* close.addEventListener('click', function (evt) {
+    formBMsg.classList.remove('visible');
+    formBMsg.classList.remove('visible');
+}); */
 
-const aboutOptions = {
-    rootMargin: "-150px 0px 0px 0px"
-};
+function goBack() {
+    window.history.back();
+}
 
-const surfcampOptions = {
-    rootMargin: "-150px 0px 0px 0px"
-};
+portugal.addEventListener('click', function (evt) {
+    window.location.href = 'portugal.html';
+});
 
-const aboutObserver = new IntersectionObserver(function (entries, aboutObserver) {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            navbar.classList.add('scrolled-about');
-        } else {
-            navbar.classList.remove('scrolled-about');
-        }
-    });
-}, aboutOptions);
+australia.addEventListener('click', function (evt) {
+    window.location.href = 'australia.html';
+});
 
-aboutObserver.observe(hero);
+srilanka.addEventListener('click', function (evt) {
+    window.location.href = 'srilanka.html';
+});
 
-const surfcampObserver = new IntersectionObserver(function (entries, surfcampObserver) {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            navbar.classList.add('scrolled-surfcamp');
-        } else {
-            navbar.classList.remove('scrolled-surfcamp');
-        }
-    });
-}, surfcampOptions);
-
-surfcampObserver.observe(about);
+usa.addEventListener('click', function (evt) {
+    window.location.href = 'usa.html';
+});

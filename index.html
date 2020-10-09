@@ -7,6 +7,7 @@
     <!-- Added website description for better SEO -->
     <meta name="description" content="Catch D' Wave is a surf camp located in ...">
     <link rel="stylesheet" href="style.css">
+    <script src="scroll.js" defer></script>
     <script src="app.js" defer></script>
     <script src="form.js" defer></script>
     <link rel="icon" href="./icon/catch d' wave icon.png" type="image/png" sizes="16x16">
@@ -18,7 +19,6 @@
 
 <body>
     <!-- <div class="overlay"></div> -->
-
     <header>
         <nav>
             <h1 class="logo">CATCH D' WAVE</h1>
@@ -27,7 +27,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#surfcamp">Surfcamps</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div id="menuToggle">
                 <input type="checkbox" />
@@ -38,9 +38,10 @@
         </nav>
     </header>
 
-    <div class="hero"></div>
-
-    <!--  <svg width="1517" height="170" id="logo" viewBox="-5 0 1525 166" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <section class="hero">
+        <div class="hero-content">
+            <h1>SURF CAMP</h1>
+            <!--  <svg width="1517" height="170" id="logo" viewBox="-5 0 1525 166" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
             d="M88.4771 120.483C88.4771 114.843 86.4629 110.449 82.4346 107.299C78.4795 104.15 71.4849 100.891 61.4507 97.5215C51.4165 94.1523 43.2134 90.8931 36.8413 87.7437C16.1138 77.563 5.75 63.5737 5.75 45.7759C5.75 36.9136 8.31348 29.1133 13.4404 22.375C18.6406 15.5635 25.9648 10.29 35.4131 6.55469C44.8613 2.74609 55.4814 0.841797 67.2734 0.841797C78.7725 0.841797 89.063 2.89258 98.145 6.99414C107.3 11.0957 114.405 16.9551 119.458 24.5723C124.512 32.1162 127.039 40.7588 127.039 50.5H88.5869C88.5869 43.9814 86.5728 38.9277 82.5444 35.3389C78.5894 31.75 73.2061 29.9556 66.3945 29.9556C59.5098 29.9556 54.0532 31.4937 50.0249 34.5698C46.0698 37.5728 44.0923 41.418 44.0923 46.1055C44.0923 50.207 46.2896 53.9424 50.6841 57.3115C55.0786 60.6074 62.8057 64.0498 73.8652 67.6387C84.9248 71.1543 94.0068 74.9629 101.111 79.0645C118.396 89.0254 127.039 102.758 127.039 120.263C127.039 134.252 121.766 145.239 111.219 153.222C100.672 161.206 86.2065 165.197 67.8228 165.197C54.8589 165.197 43.1035 162.89 32.5566 158.276C22.083 153.588 14.1729 147.216 8.82617 139.16C3.55273 131.03 0.916016 121.691 0.916016 111.145H39.5879C39.5879 119.714 41.7852 126.049 46.1797 130.151C50.6475 134.179 57.8618 136.193 67.8228 136.193C74.1948 136.193 79.2119 134.838 82.874 132.128C86.6094 129.345 88.4771 125.463 88.4771 120.483Z"
             stroke="white" stroke-width="5" />
@@ -65,6 +66,9 @@
             d="M1429.2 108.728V163H1390.64V3.03906H1454.47C1466.7 3.03906 1477.51 5.30957 1486.88 9.85059C1496.33 14.3184 1503.62 20.7271 1508.75 29.0767C1513.95 37.353 1516.55 46.7646 1516.55 57.3115C1516.55 72.9121 1510.94 85.3999 1499.74 94.7749C1488.6 104.077 1473.3 108.728 1453.81 108.728H1429.2ZM1429.2 78.9546H1454.47C1461.94 78.9546 1467.62 77.0869 1471.5 73.3516C1475.46 69.6162 1477.43 64.3428 1477.43 57.5312C1477.43 50.0605 1475.42 44.0913 1471.39 39.6235C1467.36 35.1558 1461.87 32.8853 1454.91 32.812H1429.2V78.9546Z"
             stroke="white" stroke-width="5" />
     </svg> -->
+        </div>
+    </section>
+
     <section class="gradient-overlay">
         <section id="about" class="about">
             <div class="about-content">
@@ -87,25 +91,117 @@
 
         <section id="surfcamp" class="surfcamp">
             <div class="surfcamp-content">
-                <div class="cards">
+                <div id="portugal" class="cards">
                     <h2>Algarve <br> Beach</h2>
                     <p>Algarve | Portugal</p>
                 </div>
-                <div class="cards">
+                <div id="australia" class="cards">
                     <h2>Byron <br> Beach</h2>
                     <p>Byron Bay | Australia</p>
                 </div>
-                <div class="cards">
+                <div id="srilanka" class="cards">
                     <h2>Sri <br> Lanka</h2>
                     <p>Sri Lanka | Sri Lanka</p>
                 </div>
-                <div class="cards">
+                <div id="usa" class="cards">
                     <h2>Malibu <br> Beach</h2>
                     <p>California | USA</p>
                 </div>
             </div>
         </section>
+
+        <section id="contact" class="contact">
+            <div class="submit-booking">
+                <h1 id="h1-booking"></h1>
+                <h5>We're thrilled to hear from you and we</h5>
+                <h4>Have a great day,</h4>
+                <h3>Catch D' Wave</h3>
+                <a class="close" onclick="goBack()" href="#">Go back</a>
+            </div>
+
+            <div class="submit-question">
+                <h1 id="h1-question"></h1>
+                <h5>We're thrilled to hear from you. One of our colleagues will get in touch with you as soon as
+                    possible!
+                </h5>
+                <h4>Have a great day,</h4>
+                <h3>Catch D' Wave</h3>
+                <a class="close" onclick="goBack()" href="#">Go back</a>
+            </div>
+
+            <div class="form-header">
+                <h2>Get in Touch</h2>
+            </div>
+
+            <form id="form" action="#">
+                <div class="name-row">
+                    <div class="form-control">
+                        <label>First Name</label>
+                        <div class="tooltip">*
+                            <span class="tooltiptext">Obligatory</span>
+                        </div>
+                        <input type="text" placeholder="Enter your first name" id="firstname">
+                        <i id="check" class="fas fa-check"></i>
+                        <i id="times" class="fas fa-times"></i>
+                        <p id="error-msg">Error</p>
+                    </div>
+
+                    <div class="form-control">
+                        <label>Last Name</label>
+                        <div class="tooltip">*
+                            <span class="tooltiptext">Obligatory</span>
+                        </div>
+                        <input type="text" placeholder="Enter your last name" id="lastname">
+                        <i id="check" class="fas fa-check"></i>
+                        <i id="times" class="fas fa-times"></i>
+                        <p id="error-msg">Error</p>
+                    </div>
+                </div>
+                <div class="form-control">
+                    <label>Email</label>
+                    <div class="tooltip">*
+                        <span class="tooltiptext">Obligatory</span>
+                    </div>
+                    <input type="text" placeholder="Enter your email adress" id="email">
+                    <i id="check" class="fas fa-check"></i>
+                    <i id="times" class="fas fa-times"></i>
+                    <p id="error-msg">Error</p>
+                </div>
+
+                <div class="form-control">
+                    <label>Subject</label>
+                    <div class="tooltip">*
+                        <span class="tooltiptext">Obligatory</span>
+                    </div>
+                    <select id="subject" name="subject">
+                        <option value="" selected disabled hidden>Choose here</option>
+                        <option value="booking">Booking</option>
+                        <option value="question">Question</option>
+                    </select>
+                    <i id="check" class="fas fa-check"></i>
+                    <i id="times" class="fas fa-times"></i>
+                    <p id="error-msg">Error</p>
+                </div>
+
+                <div class="form-control">
+                    <label>Message</label>
+                    <div class="tooltip">*
+                        <span class="tooltiptext">Obligatory</span>
+                    </div>
+                    <textarea id="message" name="message" placeholder="Enter your message here..."></textarea>
+                    <i id="check" class="fas fa-check"></i>
+                    <i id="times" class="fas fa-times"></i>
+                    <p id="error-msg">Error</p>
+                </div>
+
+                <button>Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>© 2020 Catch D' Wave All Rights Reserved</p>
+        </footer>
     </section>
+
 </body>
 
 </html>

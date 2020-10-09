@@ -53,7 +53,7 @@ header {
     min-height: 10vh;
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 998;
 }
 
 .transparent {
@@ -67,7 +67,12 @@ header {
 }
 
 .scrolled-surfcamp {
-    background-color:rgb(9, 34, 41);
+    background-color:rgb(6, 28, 36);
+    transition: 0.3s ease-in-out;
+}
+
+.scrolled-contact {
+    background-color:rgb(1, 13, 17);
     transition: 0.3s ease-in-out;
 }
 
@@ -125,6 +130,15 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.hero-content h1 {
+    min-width: 100%;
+    font-size: 22rem;
+    letter-spacing: 3rem;
+    font-weight: 900;
+    color: var(--main-secondary-text-color);
+    transform: translateY(-2rem);
 }
 
 #logo {
@@ -509,12 +523,7 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
   font-size: 22px;
 } */
 
-/*
- * And let's slide it in from the left
- */
-
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: none;
   display: inline-block;
 }
@@ -529,9 +538,9 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
       display: block;
   }
 
-  ul {
+  /* ul {
       display: none;
-  }
+  } */
 }
 
 /* Laptop and higher */
@@ -543,4 +552,304 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
   ul {
       display: inline-block;
   }
+}
+
+
+
+/* Form */
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-header {
+    /* background-color: #252525; */
+    width: 50vw;
+    height: 10vh;
+    border-radius: 1rem 1rem 0 0;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: var(--main-secondary-text-color);
+}
+
+#form {
+    height: 60vh;
+    width: 50vw;
+    /* background-color: #131313; */
+    border-radius: 0 0 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Form Control */
+
+.form-control {
+    padding: 2rem;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.form-control input {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 2px solid #f0f0f0;
+    margin-bottom: 0.5rem;
+}
+
+.form-control i {
+    position: absolute;
+    top: 75px;
+    right: 50px;
+    visibility: hidden;
+}
+
+.form-control p {
+    visibility: hidden;
+    color: #e74c3c;
+}
+
+.form-control textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+    border: 2px solid #f0f0f0;
+}
+
+.form-control.success input {
+    border-color:#2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success #subject {
+    border-color:#2ecc71;
+}
+
+.form-control.error #subject {
+    border-color: #e74c3c;
+}
+
+.form-control.success textarea {
+    border-color:#2ecc71;
+}
+
+.form-control.error textarea {
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-times {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.error p {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+#subject {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #f0f0f0;
+}
+
+button {
+    background-color: #F80759;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* Tool tip - https://www.w3schools.com/howto/howto_css_tooltip.asp */ 
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  color: #F80759;
+  font-size: 1.5rem;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Submit Question */
+
+.submit-question {
+    position: fixed;
+    background-color: #000;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20vh 0 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+#h1-question {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.submit-question h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 6rem;
+}
+
+.submit-question h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.submit-question h3 {
+    font-size: 3.5rem;
+    color: #F80759;
+    margin-bottom: 21rem;
+    letter-spacing: 0.3rem;
+}
+
+/* Submit Booking */
+
+.submit-booking {
+    position: fixed;
+    background-color: #000;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 20vh 0 10vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+}
+
+#h1-booking {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.submit-booking h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 6rem;
+}
+
+.submit-booking h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.submit-booking h3 {
+    font-size: 3.5rem;
+    color: #F80759;
+    margin-bottom: 21rem;
+    letter-spacing: 0.3rem;
+}
+
+::placeholder {
+    color:#CDCDCD;
+}
+
+.visible {
+    visibility: visible;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
+}
+
+footer p {
+    color: var(--main-secondary-text-color);
+    opacity: 0.6;
+    font-size: 2rem;
+    align-self: flex-end;
 }
