@@ -42,7 +42,7 @@ const surfcampObserver = new IntersectionObserver(function (entries, surfcampObs
 
 surfcampObserver.observe(about);
 
-const contactObserver = new IntersectionObserver(function (entries, contactObserver) {
+/* const contactObserver = new IntersectionObserver(function (entries, contactObserver) {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             navbar.classList.add('scrolled-contact');
@@ -52,4 +52,4 @@ const contactObserver = new IntersectionObserver(function (entries, contactObser
     });
 }, contactOptions);
 
-contactObserver.observe(surfcamp);
+contactObserver.observe(surfcamp); */
