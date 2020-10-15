@@ -7,15 +7,6 @@ const close = document.querySelectorAll('.close');
 const formBMsg = document.querySelector('.submit-booking');
 const formQMsg = document.querySelector('.submit-question');
 
-/* close.addEventListener('click', function (evt) {
-    formBMsg.classList.remove('visible');
-    formBMsg.classList.remove('visible');
-}); */
-
-function goBack() {
-    window.history.back();
-}
-
 portugal.addEventListener('click', function (evt) {
     window.location.href = 'portugal.html';
 });
