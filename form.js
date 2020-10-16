@@ -4,8 +4,8 @@ const lastname = document.getElementById('lastname');
 const email = document.getElementById('email');
 const subject = document.getElementById('subject');
 const message = document.getElementById('message');
-const h1Booking = document.getElementById('h1-booking');
-const h1Question = document.getElementById('h1-question');
+const h2Booking = document.getElementById('h2-booking');
+const h2Question = document.getElementById('h2-question');
 let bookingMsg = document.querySelector('.submit-booking');
 let questionMsg = document.querySelector('.submit-question');
 // let feedbackMsg = document.querySelector('.submit-feedback');
@@ -115,7 +115,7 @@ function bookingSubmit() {
 
     if (subject.value === 'booking') {
         bookingMsg.classList.add('visible');
-        h1Booking.innerHTML = "Thanks " + firstname.value + " for booking with us!";
+        h2Booking.innerHTML = "Thanks " + firstname.value + " for booking with us!";
     }
 }
 
@@ -127,6 +127,6 @@ function questionSubmit() {
 
     if (subject.value === 'question') {
         questionMsg.classList.add('visible');
-        h1Question.innerHTML = "Thanks " + firstname.value + " for your question!";
+        h2Question.innerHTML = "Thanks " + firstname.value + " for your question!";
     }
 }

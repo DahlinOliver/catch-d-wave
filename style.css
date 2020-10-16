@@ -253,7 +253,7 @@ nav ul li a:hover {
       display: block;
   }
 
-  #test {
+  #big-menu {
       display: none;
   }
 }
@@ -763,7 +763,7 @@ button {
     visibility: hidden;
 }
 
-#h1-question {
+#h2-question {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
@@ -803,7 +803,7 @@ button {
     visibility: hidden;
 }
 
-#h1-booking {
+#h2-booking {
     font-size: 4rem;
     margin-bottom: 1rem;
 }
