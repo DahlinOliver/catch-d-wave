@@ -129,7 +129,7 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: var(--main-secondary-text-color);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
@@ -146,11 +146,11 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  
+  width: 100vw;
+  height: 100vh;
+  margin: -6.5vh 0 0 -86.5vw;
+  /* padding: 15vh 5vw 10vh 5vw; */
+
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -160,12 +160,17 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
   transform: translate(100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#menu li
+#menu li a
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 4rem 0;
+  font-size: 4rem;
   display: block;
 }
 
@@ -185,6 +190,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 998;
+    background-color: #fff;
 }
 
 .transparent {
@@ -412,7 +418,7 @@ nav ul li a:hover {
     background: url(./img/bg\ surf\ 2.jpg) no-repeat center;
 }
 
-.about-content h1 {
+.about-content h2 {
     font-size: 8rem;
     letter-spacing: 1rem;
     color: #fff;

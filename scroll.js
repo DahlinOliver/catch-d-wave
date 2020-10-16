@@ -1,6 +1,6 @@
 // https://www.youtube.com/watch?v=RxnV9Xcw914
 
-const navbar = document.querySelector('header');
+/* const navbar = document.querySelector('header');
 const hero = document.querySelector('.hero');
 const about = document.querySelector('#about');
 const surfcamp = document.querySelector('#surfcamp');
@@ -42,7 +42,7 @@ const surfcampObserver = new IntersectionObserver(function (entries, surfcampObs
 
 surfcampObserver.observe(about);
 
-/* const contactObserver = new IntersectionObserver(function (entries, contactObserver) {
+const contactObserver = new IntersectionObserver(function (entries, contactObserver) {
     entries.forEach(entry => {
         if (!entry.isIntersecting) {
             navbar.classList.add('scrolled-contact');
