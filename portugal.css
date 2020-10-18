@@ -150,3 +150,46 @@ button {
     background-color: var(--main-secondary-text-color);
     align-self: flex-end;
 }
+
+/* MEDIA */
+@media only screen and (max-width: 1365px) {
+    .lessons-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .left {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0;
+    }
+
+    .right {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .location {
+        align-self: center;
+    }
+
+    strong {
+        align-self: center;
+    }
+
+    #price {
+        align-self: center;
+    }
+
+    button {
+        align-self: center;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+}

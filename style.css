@@ -295,11 +295,12 @@ nav ul li a:hover {
 
 .hero-content h1 {
     min-width: 100%;
-    font-size: 22rem;
+    font-size: 11vw;
     letter-spacing: 3rem;
     font-weight: 900;
     color: var(--main-secondary-text-color);
     transform: translateY(-2rem);
+    text-align: center;
 }
 
 #logo {
@@ -450,6 +451,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .cards {
@@ -459,6 +461,7 @@ nav ul li a:hover {
     flex-direction: column;
     padding: 3rem;
     transition: 0.6s ease-in-out;
+    flex: 25%;
 }
 
 .surfcamp-content div:first-child {
@@ -853,8 +856,189 @@ footer p {
     align-self: flex-end;
 }
 
+/* HERO MEDIA */
+
 @media only screen and (min-width: 2560px) {
-    .hero {
-        object-fit: cover;
+    .logo {
+        font-size: 6rem;
+    }
+
+    #big-menu li a {
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 1470px) {
+    .hero-content h1 {
+    min-width: 100%;
+    font-size: 10vw;
+    letter-spacing: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--main-secondary-text-color);
+    transform: translateY(-2rem);
+}
+}
+
+@media only screen and (max-width: 1127px) {
+    .hero-content h1 {
+    min-width: 100%;
+    font-size: 9vw;
+    letter-spacing: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--main-secondary-text-color);
+    transform: translateY(-2rem);
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero-content h1 {
+    min-width: 100%;
+    font-size: 20vw;
+    letter-spacing: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--main-secondary-text-color);
+    transform: translateY(-2rem);
+}
+}
+
+@media only screen and (max-width: 477px) {
+    .logo {
+        font-size: 1rem;
+        font-weight: 900;
+    }
+}
+
+
+
+/* ABOUT MEDIA */
+
+@media only screen and (max-width: 1550px) {
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .left {
+        width: 80%;
+        height: auto;
+        text-align: center;
+    }
+
+    .right {
+        width: 80%;
+    }
+
+    .about-content p {
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+
+    .about {
+        padding-top: 15vh;
+    }
+}
+
+@media only screen and (max-width: 1185px) {
+    .surfcamp {
+        height: auto;
+    }
+
+    .surfcamp-content {
+        padding-top: 20vh;
+        height: auto;
+    }
+    
+    .cards {
+        flex: 50%;
+        margin-bottom: 10vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-content h2 {
+        font-size: 5rem;
+    }
+}
+
+
+/* SURFCAMP MEDIA */
+@media only screen and (max-width: 768px) {
+    .surfcamp {
+        height: auto;
+    }
+
+    .surfcamp-content {
+        padding-top: 20vh;
+        height: auto;
+    }
+    
+    .cards {
+        flex: 100%;
+        margin-bottom: 10vh;
+    }
+
+    .surfcamp-content div:first-child:hover {
+    transform: none;
+}
+
+.surfcamp-content div:nth-child(2):hover {
+    transform: none;
+}
+
+.surfcamp-content div:nth-child(3):hover {
+    transform: none;
+}
+
+.surfcamp-content div:nth-child(4):hover {
+    transform: none;
+}
+}
+
+
+/* CONTACT MEDIA */
+
+@media only screen and (max-width: 1024px) {
+    #form {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .form-control {
+    padding: 2rem 0 2rem 0;
+    }
+
+    .form-header h2 {
+        font-size: 5rem;
+    }
+
+    button {
+    margin: 2rem 0 2rem 0;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .form-header h2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .form-header h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* FOOTER MEDIA */
+
+@media only screen and (max-width: 470px) {
+    footer p {
+        font-size: 3.5vw;
     }
 }
