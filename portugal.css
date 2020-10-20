@@ -155,9 +155,10 @@ button {
 @media only screen and (max-width: 1365px) {
     .lessons-content {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         height: auto;
+        height: 50vh;
+        padding: 5vh 0 5vh 0;
     }
 
     .left {
@@ -179,10 +180,12 @@ button {
 
     strong {
         align-self: center;
+        margin-bottom: 1rem;
     }
 
     #price {
         align-self: center;
+        margin-bottom: 1rem;
     }
 
     button {
@@ -191,5 +194,42 @@ button {
 
     .banner {
         height: 40vh;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .location {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .lessons-content {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        height: 50vh;
+        padding: 5vh 0 5vh 0;
+    }
+    
+    .left {
+        width: 80vw;
+    }
+
+    .right {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .lessons-content {
+        height: 60vh;
+    }
+    
+    .banner {
+        height: 30vh;
     }
 }

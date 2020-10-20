@@ -416,7 +416,8 @@ nav ul li a:hover {
 .right {
     width: 35vw;
     height: 60vh;
-    background: url(./img/bg\ surf\ 2.jpg) no-repeat center;
+    background: url(./img/about.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .about-content h2 {
