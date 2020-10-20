@@ -150,3 +150,141 @@ button {
     background-color: var(--main-secondary-text-color);
     align-self: flex-end;
 }
+
+/* MEDIA */
+@media only screen and (max-width: 1365px) {
+    .lessons-content {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        height: 50vh;
+        padding: 5vh 0 5vh 0;
+    }
+
+    .left {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin: 0;
+    }
+
+    .right {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .location {
+        align-self: center;
+    }
+
+    strong {
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+
+    #price {
+        align-self: center;
+        margin-bottom: 1rem;
+    }
+
+    button {
+        align-self: center;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .location {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 2560px) {
+    .left h5 {
+        font-size: 3.5rem;
+    }
+
+    .left h1 {
+        font-size: 12rem;
+    }
+
+    .left p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .right i {
+        font-size: 3rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #location-text {
+        font-size: 3rem;
+    }
+
+    strong {
+        font-size: 5rem;
+    }
+
+    #price {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    #exit {
+        font-size: 4rem;
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .lessons-content {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        height: 50vh;
+        padding: 5vh 0 5vh 0;
+    }
+    
+    .left {
+        width: 80vw;
+    }
+
+    .right {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .lessons-content {
+        height: 60vh;
+    }
+    
+    .banner {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .lessons-content {
+        height: 80vh;
+        padding: 10vh 0 5vh 0;
+    }
+    
+    .banner {
+        display: none;
+    }
+}
