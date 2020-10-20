@@ -867,6 +867,110 @@ footer p {
     #big-menu li a {
         font-size: 3rem;
     }
+
+    .left h2 {
+        font-size: 14rem;
+    }
+
+    .left p {
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        line-height: 5rem;
+    }
+
+    .surfcamp-content div:first-child {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .surfcamp-content div h2 {
+        color: #fff;
+        font-size: 6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .surfcamp-content div p {
+        font-size: 2.5rem;
+    }
+
+    .form-header h2 {
+        font-size: 14rem;
+    }
+
+    .form-control label {
+        font-size: 3rem;
+    }
+
+    .tooltip {
+        font-size: 3rem;
+    }
+
+    .form-control input {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-control #subject {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-control textarea {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    button {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-control.error i.fa-times {
+    color: #e74c3c;
+    visibility: visible;
+    font-size: 4rem;
+}
+
+.form-control.success i.fa-check {
+    color: #2ecc71;
+    visibility: visible;
+    font-size: 4rem;
+}
+
+.form-control.error p {
+    visibility: visible;
+    color: #e74c3c;
+    font-size: 3rem;
+}
+
+.form-control.success input {
+    border: 5px solid #2ecc71;
+}
+
+.form-control.error input {
+   border: 5px solid #e74c3c;
+}
+
+.form-control.success #subject {
+    border: 5px solid #2ecc71;
+}
+
+.form-control.error #subject {
+    border: 5px solid #e74c3c;
+}
+
+.form-control.success textarea {
+    border: 5px solid #2ecc71;
+}
+
+.form-control.error textarea {
+    border: 5px solid #e74c3c;
+}
+
+footer p {
+    font-size: 3rem;
+}
 }
 
 
