@@ -1,17 +1,9 @@
 # Todo
 
-* ~~Lägga till surfcamp sida.~~
-* ~~Fixa hamburgemeny till navbaren.~~
-* ~~Photoshoppa rätt bakgrund så det ser ut som att man scrollar ner under vattnet.~~
-* Fixa så att menyn dyker upp vid klick på hamburgemenyn.
-* ~~Lägga till event listeners för surfcamp cards och vid click redirect till korrekt sida.~~
-* (Fixa about underline).
-* Fixa About så de wrappas vid mindre viewport.
-* Lägga till scrollDown button på hero section.
-* ~~Lägga till kontakt formulär.~~
-* Lägga till de indivudella surfcamps sidorna.
+* Fixa navigation menu (med Kristian).
 * Göra allting responsivt.
-* Göra rapport för IP1
+* Gå igenom alla sidor och kolla så att allt ser korrekt ut och fungerar på olika skärmstorlekar.
+* Göra klart rapport för IP1.
 
 <br>
 

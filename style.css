@@ -569,7 +569,7 @@ nav ul li a:hover {
 }
 
 #form {
-    height: 60vh;
+    height: auto;
     width: 50vw;
     border-radius: 0 0 1rem 1rem;
     display: flex;
@@ -768,12 +768,12 @@ button {
 }
 
 #h2-question {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 }
 
 .submit-question h5 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-bottom: 6rem;
 }
@@ -808,23 +808,24 @@ button {
 }
 
 #h2-booking {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 }
 
 .submit-booking h5 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-bottom: 6rem;
+    text-align: center;
 }
 
 .submit-booking h4 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
 .submit-booking h3 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #F80759;
     margin-bottom: 21rem;
     letter-spacing: 0.3rem;
@@ -838,6 +839,19 @@ button {
     visibility: visible;
 }
 
+.close {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+.close:hover {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+    transform: scale(1.2);
+}
 
 /* FOOTER */
 
@@ -868,109 +882,6 @@ footer p {
         font-size: 3rem;
     }
 
-    .left h2 {
-        font-size: 14rem;
-    }
-
-    .left p {
-        font-size: 4rem;
-        letter-spacing: 1rem;
-        line-height: 5rem;
-    }
-
-    .surfcamp-content div:first-child {
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .surfcamp-content div h2 {
-        color: #fff;
-        font-size: 6rem;
-        font-weight: 900;
-        text-transform: uppercase;
-    }
-
-    .surfcamp-content div p {
-        font-size: 2.5rem;
-    }
-
-    .form-header h2 {
-        font-size: 14rem;
-    }
-
-    .form-control label {
-        font-size: 3rem;
-    }
-
-    .tooltip {
-        font-size: 3rem;
-    }
-
-    .form-control input {
-        padding: 2rem;
-        font-size: 3rem;
-    }
-
-    .form-control #subject {
-        padding: 2rem;
-        font-size: 3rem;
-    }
-
-    .form-control textarea {
-        padding: 2rem;
-        font-size: 3rem;
-    }
-
-    button {
-        padding: 2rem;
-        font-size: 3rem;
-    }
-
-    .form-control.error i.fa-times {
-    color: #e74c3c;
-    visibility: visible;
-    font-size: 4rem;
-}
-
-.form-control.success i.fa-check {
-    color: #2ecc71;
-    visibility: visible;
-    font-size: 4rem;
-}
-
-.form-control.error p {
-    visibility: visible;
-    color: #e74c3c;
-    font-size: 3rem;
-}
-
-.form-control.success input {
-    border: 5px solid #2ecc71;
-}
-
-.form-control.error input {
-   border: 5px solid #e74c3c;
-}
-
-.form-control.success #subject {
-    border: 5px solid #2ecc71;
-}
-
-.form-control.error #subject {
-    border: 5px solid #e74c3c;
-}
-
-.form-control.success textarea {
-    border: 5px solid #2ecc71;
-}
-
-.form-control.error textarea {
-    border: 5px solid #e74c3c;
-}
-
-footer p {
-    font-size: 3rem;
-}
 }
 
 
@@ -1108,6 +1019,230 @@ footer p {
 
 
 /* CONTACT MEDIA */
+@media only screen and (min-width: 2560px) {
+
+    .left h2 {
+        font-size: 14rem;
+    }
+
+    .left p {
+        font-size: 4rem;
+        letter-spacing: 1rem;
+        line-height: 5rem;
+    }
+
+    .surfcamp-content div:first-child {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .surfcamp-content div h2 {
+        color: #fff;
+        font-size: 6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    .surfcamp-content div p {
+        font-size: 2.5rem;
+    }
+
+    .form-header h2 {
+        font-size: 14rem;
+    }
+
+    .form-control label {
+        font-size: 3rem;
+    }
+
+    .tooltip {
+        font-size: 3rem;
+    }
+
+    .form-control input {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-control #subject {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-control textarea {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    button {
+        padding: 2rem;
+        font-size: 3rem;
+    }
+
+    .form-control.error i.fa-times {
+    color: #e74c3c;
+    visibility: visible;
+    font-size: 4rem;
+}
+
+.form-control.success i.fa-check {
+    color: #2ecc71;
+    visibility: visible;
+    font-size: 4rem;
+}
+
+.form-control.error p {
+    visibility: visible;
+    color: #e74c3c;
+    font-size: 3rem;
+}
+
+.form-control.success input {
+    border: 5px solid #2ecc71;
+}
+
+.form-control.error input {
+   border: 5px solid #e74c3c;
+}
+
+.form-control.success #subject {
+    border: 5px solid #2ecc71;
+}
+
+.form-control.error #subject {
+    border: 5px solid #e74c3c;
+}
+
+.form-control.success textarea {
+    border: 5px solid #2ecc71;
+}
+
+.form-control.error textarea {
+    border: 5px solid #e74c3c;
+}
+
+footer p {
+    font-size: 3rem;
+}
+}
+
+/* BOOKING & QUESTION */
+@media only screen and (min-width: 2560px) {
+    #h2-booking, #h2-question {
+        font-size: 8rem;
+        margin-bottom: 3rem;
+    }
+
+    .submit-booking h5, .submit-question h5 {
+        font-size: 4rem;
+        margin-bottom: 10rem;
+    }
+
+    .submit-booking h4, .submit-question h4 {
+        font-size: 5rem;
+    }
+
+    .submit-booking h3, .submit-question h3 {
+        font-size: 8rem;
+    }
+
+    .close {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+     .submit-booking {
+        padding: 20vh 10vh 10vh 10vh;
+        overflow-y: hidden;
+    }
+
+    #h2-booking, #h2-question {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .submit-booking h5, .submit-question h5 {
+        font-size: 1.5rem;
+        margin-bottom: 10rem;
+    }
+
+    .submit-booking h4, .submit-question h4 {
+        font-size: 1.5rem;
+    }
+
+    .submit-booking h3, .submit-question h3 {
+        font-size: 2.5rem;
+        margin-bottom: 6rem;
+    }
+
+    .close {
+        font-size: 1.5rem;
+    }
+}
+
+/* 
+@media only screen and (max-width: 1440px) {
+    .submit-booking {
+        padding: 10vh 0 5vh 0;
+        overflow-y: hidden;
+    }
+    
+    #h2-booking, #h2-question {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .submit-booking h5, .submit-question h5 {
+        font-size: 1.5rem;
+        margin-bottom: 10rem;
+    }
+
+    .submit-booking h4, .submit-question h4 {
+        font-size: 1.5rem;
+    }
+
+    .submit-booking h3, .submit-question h3 {
+        font-size: 2.5rem;
+        margin-bottom: 6rem;
+    }
+
+    .close {
+        font-size: 1.5rem;
+    }
+} */
+
+/* @media only screen and (max-width: 1024px) {
+    .submit-booking {
+        padding: 10vh 0 5vh 0;
+        overflow-y: hidden;
+    }
+    
+    #h2-booking, #h2-question {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .submit-booking h5, .submit-question h5 {
+        font-size: 1rem;
+        margin-bottom: 10rem;
+    }
+
+    .submit-booking h4, .submit-question h4 {
+        font-size: 1.2rem;
+    }
+
+    .submit-booking h3, .submit-question h3 {
+        font-size: 2rem;
+        margin-bottom: 6rem;
+    }
+
+    .close {
+        font-size: 1.2rem;
+    }
+} */
+
 
 @media only screen and (max-width: 1024px) {
     #form {
@@ -1117,6 +1252,11 @@ footer p {
 
     .form-control {
     padding: 2rem 0 2rem 0;
+    }
+
+    .form-header {
+        width: 80vw;
+        margin-bottom: 5vh;
     }
 
     .form-header h2 {
