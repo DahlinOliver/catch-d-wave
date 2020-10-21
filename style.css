@@ -146,9 +146,9 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
 #menu
 {
   position: absolute;
-  width: 100vw;
+  width: 110vw;
   height: 100vh;
-  margin: -6.5vh 0 0 -86.5vw;
+  margin: -6.5vh 0 0 -85.5vw;
   /* padding: 15vh 5vw 10vh 5vw; */
 
   background: #ededed;

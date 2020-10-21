@@ -280,11 +280,16 @@ button {
 
 @media only screen and (max-width: 425px) {
     .lessons-content {
-        height: 80vh;
+        height: 100vh;
         padding: 10vh 0 5vh 0;
     }
     
     .banner {
         display: none;
     }
+
+    .footer {
+        display: none;
+    }
 }
+

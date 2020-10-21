@@ -29,20 +29,8 @@ usa.addEventListener('click', function (evt) {
     window.location.href = 'usa.html';
 });
 
-
-// Hamburger menu click event
-/* home.addEventListener('click', function (evt) {
-    checkbox.checked = false;
-}); */
-
-about.addEventListener('click', function (evt) {
-    checkbox.checked = false;
-});
-
-surfcamp.addEventListener('click', function (evt) {
-    checkbox.checked = false;
-});
-
-contact.addEventListener('click', function (evt) {
-    checkbox.checked = false;
+document.querySelector('ul#menu').addEventListener('click', function (evt) {
+    if (evt.target.tagName === 'A') {
+        checkbox.checked = false;
+    }
 });
