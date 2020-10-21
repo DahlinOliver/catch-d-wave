@@ -147,9 +147,10 @@ https://codepen.io/FaaDiiL/pen/LYZPPpG */
 {
   position: absolute;
   width: 110vw;
-  height: 100vh;
-  margin: -6.5vh 0 0 -85.5vw;
-  /* padding: 15vh 5vw 10vh 5vw; */
+  height: 105vh;
+  margin: 0;
+  top: -5vh;
+  right: -10vw;
 
   background: #ededed;
   list-style-type: none;
@@ -1287,3 +1288,5 @@ footer p {
         font-size: 3.5vw;
     }
 }
+
+/* NAV MENU MEDIA */
