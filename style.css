@@ -1248,7 +1248,11 @@ footer p {
 @media only screen and (max-width: 1024px) {
     #form {
         width: 80vw;
-        height: 60vh;
+        height: auto;
+    }
+
+    .form-header {
+        margin-top: 15vh;
     }
 
     .form-control {
@@ -1272,6 +1276,12 @@ footer p {
     position: absolute;
     top: 54px;
     right: 20px;
+}
+}
+
+@media only screen and (max-width: 425px) {
+    .form-control i {
+    display: none;
 }
 }
 
